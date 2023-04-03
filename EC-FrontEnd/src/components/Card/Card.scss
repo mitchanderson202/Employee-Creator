@@ -1,0 +1,23 @@
+@import "../../themes/Themes.scss";
+
+.Card {
+  color: $black-color;
+  border-top: 1px solid $black-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  padding-top: 10px;
+  font-size: 18px;
+  text-align: start;
+
+  p,
+  h3 {
+    padding-bottom: 5px;
+  }
+}
+
+.Card-Details {
+  align-self: flex-start;
+  padding: 0;
+}

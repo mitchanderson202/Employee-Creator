@@ -1,0 +1,53 @@
+@import "../../themes/Themes.scss";
+
+.Details {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60vh;
+  width: 60vw;
+  background-color: $lightBlue_color;
+
+  h1 {
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  p {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+
+.Edit_Details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+.Details_Display {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .Details {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+
+    h1 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+}

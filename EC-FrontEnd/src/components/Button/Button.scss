@@ -1,0 +1,10 @@
+@import "../../themes/Themes.scss";
+
+.Button {
+  font-size: 1.5em;
+  border: 0;
+  background-color: $lightBlue-color;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}

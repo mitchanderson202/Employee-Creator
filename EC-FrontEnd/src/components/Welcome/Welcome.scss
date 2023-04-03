@@ -1,0 +1,28 @@
+@import "../../themes/Themes.scss";
+
+.Welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  gap: 5px;
+  font-size: 2em;
+  background-color: $grey-color;
+
+  p {
+    width: 80vw;
+  }
+
+  a {
+    color: $lightBlue-color;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Welcome {
+    height: 100%;
+  }
+}

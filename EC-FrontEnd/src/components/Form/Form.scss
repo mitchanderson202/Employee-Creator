@@ -1,0 +1,46 @@
+@import "../../themes/Themes.scss";
+
+.Modal {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60vh;
+  width: 60vw;
+  background-color: $lightBlue_color;
+
+  h1 {
+    color: black;
+    text-align: center;
+    display: inline;
+  }
+
+  p {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Form {
+    padding: 5px;
+  }
+
+  .Modal {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
