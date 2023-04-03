@@ -2,8 +2,11 @@
 
 ## Demo & Snippets
 
-- Include hosted link
-- Include images of app if CLI or Client App
+<img width="1239" alt="Homepage" src="https://user-images.githubusercontent.com/78459081/229411743-b6848744-b05a-493e-8634-8ce451666c24.png">
+<img width="1088" alt="Employees-Page" src="https://user-images.githubusercontent.com/78459081/229411750-ae12e074-7de5-4be1-b4b2-aedecb4db85b.png">
+<img width="767" alt="Add-Employee" src="https://user-images.githubusercontent.com/78459081/229411773-2aeebfa6-5146-420c-8921-01a86e61adef.png">
+<img width="766" alt="Employee-Details" src="https://user-images.githubusercontent.com/78459081/229411789-f2075813-12bc-411f-9981-fda584499f63.png">
+<img width="763" alt="Edit-Details" src="https://user-images.githubusercontent.com/78459081/229411793-51551b78-8236-44af-b108-2cc8d56f4acd.png">
 
 ---
 
