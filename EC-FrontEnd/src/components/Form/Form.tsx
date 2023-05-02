@@ -12,7 +12,7 @@ interface FormProps {
   employee?: Employee;
 }
 
-const Form: React.FC<FormProps> = ({ employee, onSubmit, onClose }) => {
+const Form: React.FC<FormProps> = ({ employee, onClose }) => {
   const [formData, setFormData] = useState<Employee>({
     id: employee?.id || 0,
     firstName: employee?.firstName || "",
