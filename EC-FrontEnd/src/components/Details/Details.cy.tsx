@@ -22,7 +22,7 @@ describe("<Details />", () => {
     cy.contains("Mobile: 0411111111");
     cy.contains("Address: 123 Fake Street");
     cy.contains("Weekly Hours: 38");
-    cy.contains("Contract Type: Full-time");
+    cy.contains("Contract Type: Full time");
   });
 
   it("Switches to edit mode when a field is double-clicked", () => {

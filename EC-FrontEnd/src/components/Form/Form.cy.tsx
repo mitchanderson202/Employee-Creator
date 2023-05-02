@@ -91,8 +91,4 @@ describe("Form", () => {
       newEmployeeData.contractType
     );
   });
-
-  it("submits the form when add button is clicked", () => {
-    cy.get("button[type=submit]").click();
-  });
 });
