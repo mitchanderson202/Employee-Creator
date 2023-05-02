@@ -9,6 +9,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install dependencies
+        working-directory: EC-FrontEnd
         run: npm install
       - name: Run component tests
+        working-directory: EC-FrontEnd
         run: npx cypress run-ct
