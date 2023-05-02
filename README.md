@@ -1,5 +1,7 @@
 # Employee Creator
 
+[![Cypress Tests](https://github.com/mitchanderson202/Employee-Creator/actions/workflows/main.yml/badge.svg)](https://github.com/mitchanderson202/Employee-Creator/actions/workflows/main.yml)
+
 ## Demo & Snippets
 
 <img width="1239" alt="Homepage" src="https://user-images.githubusercontent.com/78459081/229411743-b6848744-b05a-493e-8634-8ce451666c24.png">
